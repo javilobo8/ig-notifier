@@ -1,0 +1,30 @@
+{
+  "name": "ig-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:inspect": "node --inspect ./bin/www",
+    "test": "NODE_ENV=test mocha --recursive src"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.4",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.22"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.0.2",
+    "mongodb": "^3.2.3",
+    "mongodb-memory-server": "^4.2.1",
+    "nock": "^10.0.6",
+    "supertest": "^4.0.2"
+  }
+}
